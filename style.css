@@ -1,9 +1,88 @@
-body {
-    background-color: #f6a2a2;
+header{
+    background-color: #40ef52a1;
+    text-align:center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body{
+    background-color: #d6fcd8;
+    margin: 0;
+}
+
+.profile-image{
+    border-radius: 50%;
+    display: circle;
+}
+
+.about-me{
+    margin: 20px;
+    padding: 20px;
+    background-color: #87e7a2;
+    border-radius: 10px;
+}
+
+.skills{
+    margin: 20px;
+    padding: 20px;
+    background-color: #87e7a2;
+    border-radius: 10px;  
+}
+
+.projects{
+    margin: 20px;
+    padding: 20px;
+    background-color: #87e7a2;
+    border-radius: 10px;  
+}
+
+.contact-me{
+    margin: 20px;
+    padding: 20px;
+    background-color: #87e7a2;
+    border-radius: 10px;
+}
+
+#main-heading{
+    color: #141414;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 footer{
-    background-color: #f76d6d;
-    align-items: center;
+    background-color: #40ef52a1;;
+    text-align: center;
     padding: 10px;
+}
+
+#name{
+    height: 30px;
+    width: 90%;
+    font-family:arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    border-color: #f6f2f2;
+}
+
+#email{
+    height: 30px;
+    width: 90%;
+    font-family:arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    border-color: #f6f2f2;
+}
+
+#message{
+    width:100%;
+    height: 50px;
+    border-radius: 5px;
+    border-color: #f6f2f2;
+}
+
+#submit-btn{
+    background-color: #40ef52a1;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    border-color: #101010;
+    border: 1px solid black;
 }
